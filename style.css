@@ -18,22 +18,28 @@ H2{
 }
 
 p{
+    background-color: aquamarine;
     text-align:center;
-    margin-left: 400px;
-    margin-right: 400px;
-    font-size: 30px
+    width: 500px;
+    height: 200px;
+    font-size: 30px;
+    border: 5px black
 }
+
+
+#info{
+    background-color: lightgreen;
+    width: 400px;
+    height: 200px;
+    float: right
+}
+
 ul{
     text-align:center;
 }
 
-div{
-    background-color: lightgreen;
-    margin-left: 600px;
-    margin-right: 600px
-}
-
 .pic{
+    clear: both;
     width: 300px;
     margin-left: 600px
 }
