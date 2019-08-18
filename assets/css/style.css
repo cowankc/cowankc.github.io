@@ -1,6 +1,6 @@
-/* body {
+body {
     background-image: url(../images/wood_pattern_@2x.png);
-} */
+}
 
 @media (max-width: 575.98px) {
     #me {
@@ -41,6 +41,18 @@
 }
 
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+
+@media (min-width: 1200px) {
+    
+    }
+
+
+
+
 #top {
     height: 80px
 }
@@ -72,5 +84,5 @@ h3 {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: white
 }
