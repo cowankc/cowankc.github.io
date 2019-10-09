@@ -66,14 +66,11 @@ body {
     height: 80px
 }
 
-/* #bio {
-    background-color:lightgray
-} */
-
 #name {
     font-size: 100px;
     font-family: 'Lobster', cursive;
-    color: antiquewhite
+    color: antiquewhite;
+    text-decoration: underline;
 }
 
 .navbar-brand {
