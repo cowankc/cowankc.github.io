@@ -51,14 +51,26 @@ body {
     }
 
 
-
+#me {
+    height: 500px;
+    width:700px; 
+    margin-left: 27%;
+    border: 5px solid white;
+    border-radius: 8px;
+}
 
 #top {
     height: 80px
 }
 
-#bio {
-    margin-top: 115px;
+/* #bio {
+    background-color:lightgray
+} */
+
+#name {
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+    color: antiquewhite
 }
 
 .navbar-brand {
@@ -67,7 +79,10 @@ body {
 }
 
 #aboutme {
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: antiquewhite;
 }
 
 #text {
