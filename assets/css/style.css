@@ -1,5 +1,8 @@
 body {
     background-image: url(../images/blue.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 @media (max-width: 575.98px) {
@@ -78,7 +81,7 @@ body {
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 }
 
-#aboutme {
+.title {
     font-family: 'Lobster', cursive;
     text-align: center;
     font-size: 50px;
