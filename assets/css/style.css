@@ -55,15 +55,15 @@ body {
 
 
 #me {
-    height: 500px;
-    width:700px; 
+    height: 30vh;
+    width: auto; 
     margin-left: 27%;
     border: 5px solid white;
     border-radius: 8px;
 }
 
 #top {
-    height: 80px
+    height: 50px
 }
 
 #name {
