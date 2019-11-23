@@ -100,34 +100,34 @@
             <div id=ffpic class="card m-3" style="width: 200px">
                 <img src="assets/images/FFpic.png" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-info text-white text-center pt-2 col-lg-12 h-25">
-                   <a href="https://mighty-brushlands-22368.herokuapp.com" target="_blank">Friend Finder</a>
+                   <a data-toggle="modal" data-target="#ffModal">Friend Finder</a>
                 </h3>
             </div>
             <div id=rpgpic class="card m-3" style="width: 200px">
                 <img src="assets/images/rpg.png" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-info text-white text-center pt-2 col-lg-12 h-25">
-                  <a href="https://cowankc.github.io/unit-4-game/" target="_blank">RPG Game</a>  
+                    <a data-toggle="modal" data-target="#rpgModal">RPG Game</a>  
                 </h3>
             </div>
             <div id=triviapic class="card m-3" style="width: 200px">
                 <img src="assets/images/trivia.png" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-info text-white text-center pt-2 col-lg-12 h-25">
-                    <a href="https://cowankc.github.io/TriviaGame/" target="_blank">Trivia</a></h3>
+                    <a data-toggle="modal" data-target="#triviaModal">Trivia</a></h3>
             </div>
             <div id=widgetpic class="card m-3" style="width: 200px">
                 <img src="assets/images/widget.png" height= 180px width=198px>
-                <h3 class="card-img-overlay bg-info text-white text-center pt-2 col-lg-12 h-25"
-                ><a href="https://cowankc.github.io/gif-generator/" target="_blank">Gif Search</a></h3>
+                <h3 class="card-img-overlay bg-info text-white text-center pt-2 col-lg-12 h-25">
+                    <a data-toggle="modal" data-target="#gifModal">Gif Search</a></h3>
             </div>
             <div id=rpspic class="card m-3" style="width: 200px">
                 <img src="assets/images/rps.jpg" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-info text-white text-center pt-1 col-lg-12 h-25">
-                    <a href="https://cowankc.github.io/RPS-Multiplayer/" target="_blank">Rock Paper Scissors</a></h3>
+                    <a data-toggle="modal" data-target="#rpsModal">Rock Paper Scissors</a></h3>
             </div>
             <div id=burgerpic class="card m-3" style="width: 200px">
                 <img src="assets/images/burger.jpg" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-info text-white text-center pt-1 col-lg-12 h-25">
-                    <a href="https://polar-shore-96942.herokuapp.com/" target="_blank">Eat Da Burger</a></h3>
+                    <a data-toggle="modal" data-target="#burgerModal">Eat Da Burger</a></h3>
             </div>
         </div>
     </div>
@@ -171,7 +171,14 @@
               </button>
             </div>
             <div class="modal-body bg-info text-white">
-                Lets Go Out is designed to help create a spontanious night of excitement and entertainment. It gives recommendations to users who are looking for a fun night out on the town by asking them whether they are looking for a movie or event, and if they are hungry and want to eat out. Once the user answers the questions, they are given their options which also have links for further details. The user also has the option to retry either their food option or event and get a new option. The idea behind this project is too help people who want to do something interesting but are not sure what to do. Whether they are just bored and want to check out their local nightlife, or visiting from out of town and dont know the area well, Lets Go Out is designed to make their desicions of what to do easier. This project was created by, Erwin Angeles, Sharon Story Smith, Kevin Cowan, Dan McCarthy, and Chris Gilliam.
+                Lets Go Out is designed to help create a spontanious night of excitement and entertainment. It gives recommendations to
+                 users who are looking for a fun night out on the town by asking them whether they are looking for a movie or event, 
+                 and if they are hungry and want to eat out. Once the user answers the questions, they are given their options which 
+                 also have links for further details. The user also has the option to retry either their food option or event and get 
+                 a new option. The idea behind this project is too help people who want to do something interesting but are not sure what 
+                 to do. Whether they are just bored and want to check out their local nightlife, or visiting from out of town and dont know 
+                 the area well, Lets Go Out is designed to make their desicions of what to do easier. 
+                 This project was created by myself, Erwin Angeles, Sharon Story Smith, Dan McCarthy, and Chris Gilliam as a group project.
             </div>
             <div class="modal-footer bg-info">
               <a href="https://erwinangeles.github.io/LetsGoOut/" target="_blank">Visit Site</a>
@@ -190,7 +197,10 @@
               </button>
             </div>
             <div class="modal-body bg-info text-white">
-                This game is designed like a hangman style of game. The user must try and figure out what the word is before they run out of guesses. The words are made up of NBA players from different eras. See how many you can get before you get tripped up! Once you get the page loaded press any key to start guessing the letter of the player named chose at random by the computer. This is one of my first javascript projects so hopefully you enjoy it. Good Luck!
+                This game is designed like a hangman style of game. The user must try and figure out what the word is before they run out 
+                of guesses. The words are made up of NBA players from different eras. See how many you can get before you get tripped up! 
+                Once you get the page loaded press any key to start guessing the letter of the player named chose at random by the computer. 
+                This is one of my first javascript projects so hopefully you enjoy it. Good Luck!
             </div>
             <div class="modal-footer bg-info">
                 <a href="https://cowankc.github.io/Word-Guess-Game/" target="_blank">Visit Site</a>
@@ -198,6 +208,149 @@
           </div>
         </div>
       </div>
+
+      <div class="modal fade" id="ffModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+              <h5 class="modal-title" id="exampleModalLabel">Friend Finder</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body bg-info text-white">
+                    Friend Finder is a social website that will match you with someone who you are most compatiblw with! It uses javascript, 
+                    express, jquery, and node to run the application. When the application is ran, the user will be able to start and enter 
+                    their name along with a link to a photo of themselves. After that they will answer 10 questions and submit their answers. 
+                    The backend of the application will uses the submitted answers to run them against other users already store as an array.
+                     Once it determins which of the previous users is closet to the submited answers, it will show the matched users name and 
+                     photo. The application will also save the new user to its array of users to be used in future matches. This application 
+                     is useful in seeing the relationship between the backend and frontend of web development and how they each affect each other. 
+                     This application was created by myself.
+            </div>
+            <div class="modal-footer bg-info">
+              <a href="https://mighty-brushlands-22368.herokuapp.com" target="_blank">Visit Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="rpgModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                  <h5 class="modal-title" id="exampleModalLabel">Presidential RPG</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body bg-info text-white">
+                        This is a RPG type mini-game created using jquery and javascript. You start by choosing you character from a list of 4. 
+                        Then choose your opponent and simply hit the attack button to battle. Your character will deal damage first, followed by 
+                        the enemy character. After every attack your character will recieve a bonus of its original attack power added on. 
+                        Once you defeat all the enemies, you win the game! This was my first project I created using jquery and was worked on 
+                        by myself!
+                </div>
+                <div class="modal-footer bg-info">
+                  <a href="https://cowankc.github.io/unit-4-game/" target="_blank">Visit Site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="modal fade" id="triviaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                      <h5 class="modal-title" id="exampleModalLabel">Star Wars Trivia</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body bg-info text-white">
+                            This is a Star Wars trivia game where you can test your knowledge on Star Wars! Press the start button to start 
+                            the game and get the first question. You will be given four answers to choose from, once you choose an answer the 
+                            game will tell you if you are correct, or if you are wrong and what the correct answer is. You have 10 seconds to 
+                            answer the question, if you don't answer it in time it will be counted as a wrong answer. The game records the number 
+                            of correct and wrong answers. There are 15 questions in all, see how many you can get right! Once you finish the game 
+                            it allows you the option to retry if you'd like. This was a fun javascript project for myself because I got to make it 
+                            for something I enjoy, Star Wars!
+                    </div>
+                    <div class="modal-footer bg-info">
+                      <a href="https://cowankc.github.io/TriviaGame/" target="_blank">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="gifModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h5 class="modal-title" id="exampleModalLabel">Sports Giphy</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-info text-white">
+                            This is a Gif generator that uses the giphy api to load ten gifs. The gifs are sports themed and are loaded paused. 
+                            When you click on the gif it will animate! you can search for your favorite team and add a new button to load gifs 
+                            of that team. This is my first project using API's and was worked on by myself.
+                    </div>
+                    <div class="modal-footer bg-info">
+                        <a href="https://cowankc.github.io/gif-generator/" target="_blank">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="rpsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-info text-white">
+                            <h5 class="modal-title" id="exampleModalLabel">Rock Paper Scissors</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body bg-info text-white">
+                                This is a basic rock, paper, scissor game created using javascript and firebase. Having it linked with
+                                firebase allows for 2 users too use the application at once and go head to head against each other. Their 
+                                score will be recorder on screen based on which decisions they choose. This is one of my first projects using
+                                firebase and was helpfully in learning how it an be applied to my future projects. 
+                        </div>
+                        <div class="modal-footer bg-info">
+                            <a href="https://cowankc.github.io/RPS-Multiplayer/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="modal fade" id="burgerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h5 class="modal-title" id="exampleModalLabel">Eat Da Burger</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-info text-white">
+                            This application allows you to create a list of burgers to be eaten! The user will enter a new burger and submit it. 
+                            It will be listed in yellow as a burger that is ready to be eaten. When the user clicks on the burger it will then 
+                            send it to the eaten burger list. If the user clicks on it while it is in the eaten list it will delete the burger 
+                            from the list! The user can add as many burgers as they would like and does not need to delete them if they do not want too.
+                             This app uses express and node on the back end to run the server and uses handlebars as an engine to deploy the front end. 
+                             It uses Mysql as a database that will log all the burgers and keep track of their names and if they have been eaten. 
+                             When a user deletes a burger after it has been eaten, it will delete the burger from the database. This project was created 
+                             and worked on by myself.
+                    </div>
+                    <div class="modal-footer bg-info">
+                        <a href="https://polar-shore-96942.herokuapp.com/" target="_blank">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
