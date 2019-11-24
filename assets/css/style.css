@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/blue.png);
+    background-image: url(../images/nature.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -55,7 +55,7 @@ body {
 
 
 #me {
-    height: 30vh;
+    height: 25vh;
     width: auto; 
     margin-left: 27%;
     border: 5px solid white;
@@ -99,5 +99,10 @@ h3 {
 }
 a {
     text-decoration: none;
-    color: white
+    color: white;
+    cursor:pointer;
+}
+
+.transparent {
+    background: rgba(170, 170, 170, 0.75);
 }

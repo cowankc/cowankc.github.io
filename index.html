@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navButton">
                 <ul class="navbar-nav col-12 col-sm-12 offset-md-3 col-md-4 offset-lg-10 col-lg-2">
                     <li class="nav-item pr-2 pl-2 border-right border-white">
-                        <a href="#bio" class="nav-link text-white ">About</a>
+                        <a href="#bio" class="nav-link text-white transparent">About</a>
                     </li>
                     <li class="nav-item pr-2 pl-2 border-right border-white">
-                        <a href="#projectmenu" class="nav-link text-white">Portfolio</a>
+                        <a href="#projectmenu" class="nav-link text-white transparent">Portfolio</a>
                     </li>
                     <li class="nav-item pr-2 pl-2">
-                        <a href="#contactbox" class="nav-link text-white">Contact</a>
+                        <a href="#contactbox" class="nav-link text-white transparent">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +41,7 @@
 
     <!-- about me  -->
     
-    <div id=bio class="container col-12 col-sm-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 mb-5 border-bottom border-white">
+    <div id=bio class="container transparent col-12 col-sm-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 mb-5 border-bottom border-white">
         <div class="row">
              <h2 class="col-lg-12 title
             border-bottom border-white font-weight-bold">About Me</h2>
@@ -67,13 +67,13 @@
             </p>
         </div>
         <div class="row text-white mb-5">
-            <div class="col-12 col-sm-12 offset-lg-2 col-lg-2 bg-info border border-white text text-center">
+            <div class="col-12 col-sm-12 offset-lg-2 col-lg-2 bg-transparent border border-white text text-center">
                 <h2><a href="https://www.linkedin.com/in/kevin-cowan-728580187/" target="_blank">Linkedin</a></h2>
             </div>
-            <div class="col-12 col-sm-12 offset-lg-1 col-lg-2 bg-info border border-white text text-center">
+            <div class="col-12 col-sm-12 offset-lg-1 col-lg-2 bg-transparent border border-white text text-center">
                 <h2><a href="https://github.com/cowankc?tab=repositories" target="_blank">Github</a></h2>
             </div>
-            <div class="col-12 col-sm-12 offset-lg-1 col-lg-2 bg-info border border-white text text-center">
+            <div class="col-12 col-sm-12 offset-lg-1 col-lg-2 bg-transparent border border-white text text-center">
                 <h2><a href="assets/documents/Resume.pdf" target="_blank">Resume</a></h2>
             </div>
         </div>
@@ -81,10 +81,16 @@
 
     <!-- Portolio -->
 
-    <div id=projectmenu class="container col-12 col-sm-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 
+    <div id=projectmenu class="container transparent col-12 col-sm-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 
     border-bottom border-white mb-5 mt-5">
         <h2 class="col-lg-12 border-bottom border-white title">Portfolio</h2>
         <div class="row">
+            <div id=cookinnpic class="card m-3" style="width: 200px">
+                <img src="assets/images/whatscookin.png" height= 180px width=198px>
+                <h3 class="card-img-overlay bg-info text-white text-center pt-2 col-lg-12 h-25">
+                    <a data-toggle="modal" data-target="#cookinModal">What's Cookin</a>
+                </h3>
+            </div>
             <div id=LGOpic class="card m-3" style="width: 200px">
                 <img src="assets/images/LGO.png" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-info text-white text-center pt-2 col-lg-12 h-25">
@@ -134,7 +140,7 @@
 
     <!-- contact box -->
 
-    <div id=contactbox class="container col-12 col-sm-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 
+    <div id=contactbox class="container transparent col-12 col-sm-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 
     border-bottom border-white mb-5 mt-5">
         <h2 id=contact class="col-lg-12 border-bottom border-white title">Contact</h2>
         <form id=contactForm class="col-12 col-sm-12 col-md-12 col-lg-12 text-white">
@@ -154,7 +160,7 @@
         </form>
     </div>
 
-    <div id=footer class="row bg-secondary">
+    <div id=footer class="row transparent">
         <div class="col-lg-12 bg-info" style="height: 8px"> </div>
         <p id=copyright class="col-12 col-sm-12 col-md-12 offset-lg-5 col-lg-2 text-center text-white">Copyright ©</p>
     </div>
@@ -351,6 +357,30 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="cookinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-info text-white">
+                            <h5 class="modal-title" id="exampleModalLabel">What's Cookin</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body bg-info text-white">
+                            What's Cookin is a food service applications that allows chefs to post homemade meals for 
+                            other users to puchase and review. Users can log in and view meals being made in there area 
+                            and can choose the ones they are interested in buying. Once they finish viewing their options, 
+                            users can place an order from the meal they liked. The application uses javascript, JQuery, materialize, 
+                            handlebars, and MySQL to run. It was created by myself, Erwin Angeles, Lorena Perales, and Sarah McLaughlin 
+                            for a group project.
+                        </div>
+                        <div class="modal-footer bg-info">
+                            <a href="https://obscure-badlands-37234.herokuapp.com/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
