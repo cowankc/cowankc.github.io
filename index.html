@@ -57,7 +57,8 @@
             correctly.
                 The language that I am most proficient in working with is Javascript or JQuery. I am also 
             able to work with both MongoDB servers or MySQL servers. When working with front end applications I prefer to use Bootsrtap 
-            for styling, but can also use regular CSS as well. When working on the back end, I can also use node, express, and sequelize. 
+            for styling, but can also use regular CSS as well. When working on the back end, I can also use node, express, and sequelize.
+            I also have experience using React to build applications.  
                 I have lived in Austin since 2016, but I actually grew up in Derry New 
             Hampshire, which is about 45 minutes north of Boston. As much as I miss Skiing on
             the White Mountains, Austin has been a great home for the past few years! Besides practicing working 
@@ -84,16 +85,22 @@
     border-bottom border-white mb-5 mt-5">
         <h2 class="col-lg-12 border-bottom border-white title">Portfolio</h2>
         <div class="row">
+            <div id=LGOpic class="card m-3" style="width: 200px">
+                <img src="assets/images/LGO.png" height= 180px width=198px>
+                <h3 class="card-img-overlay bg-secondary text-white text-center pt-2 col-lg-12 h-25">
+                    <a data-toggle="modal" data-target="#lgoModal">Let's Go Out</a>
+                </h3>
+            </div>
             <div id=cookinnpic class="card m-3" style="width: 200px">
                 <img src="assets/images/whatscookin.png" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-secondary text-white text-center pt-2 col-lg-12 h-25">
                     <a data-toggle="modal" data-target="#cookinModal">What's Cookin</a>
                 </h3>
             </div>
-            <div id=LGOpic class="card m-3" style="width: 200px">
-                <img src="assets/images/LGO.png" height= 180px width=198px>
+            <div id=SPpic class="card m-3" style="width: 200px">
+                <img src="assets/images/SP.png" height= 180px width=198px>
                 <h3 class="card-img-overlay bg-secondary text-white text-center pt-2 col-lg-12 h-25">
-                    <a data-toggle="modal" data-target="#lgoModal">Let's Go Out</a>
+                    <a data-toggle="modal" data-target="#SPModal">Memory Game</a>
                 </h3>
             </div>
             <div id=hangmanpic class="card m-3" style="width: 200px">
@@ -382,6 +389,29 @@
                         </div>
                         <div class="modal-footer bg-secondary">
                             <a href="https://obscure-badlands-37234.herokuapp.com/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="SPModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-secondary text-white">
+                            <h5 class="modal-title" id="exampleModalLabel">React Memory Game!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body bg-secondary text-white">
+                            This is a memory game where you must remeber what image you clicked on. 
+                            There are twelve images that will change places when clicked. If you click 
+                            on the same image more then once, you lose. See if you can get all 12 correct!
+                            This app was made using React, Javascript, Express, and uses CSS for styling.
+                            It was created by myself as a practice application for using React.
+                        </div>
+                        <div class="modal-footer bg-secondary">
+                            <a href="https://cowankc.github.io/Clicky-Game/" target="_blank">Visit Site</a>
                         </div>
                     </div>
                 </div>
