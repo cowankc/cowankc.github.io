@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1224d19a.chunk.css",
+    "main.js": "/static/js/main.a97fa213.chunk.js",
+    "main.js.map": "/static/js/main.a97fa213.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.996e8249.js",
+    "runtime-main.js.map": "/static/js/runtime-main.996e8249.js.map",
+    "static/js/2.8a61d02a.chunk.js": "/static/js/2.8a61d02a.chunk.js",
+    "static/js/2.8a61d02a.chunk.js.map": "/static/js/2.8a61d02a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.53a7578935e0686c92e71944dbe08238.js": "/precache-manifest.53a7578935e0686c92e71944dbe08238.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1224d19a.chunk.css.map": "/static/css/main.1224d19a.chunk.css.map",
+    "static/js/2.8a61d02a.chunk.js.LICENSE": "/static/js/2.8a61d02a.chunk.js.LICENSE",
+    "static/media/LGO.png": "/static/media/LGO.6504ba37.png",
+    "static/media/Resume.pdf": "/static/media/Resume.c03b9959.pdf",
+    "static/media/SP.png": "/static/media/SP.d79b78f2.png",
+    "static/media/burger.jpg": "/static/media/burger.4e14e544.jpg",
+    "static/media/App.css": "/static/media/code.88537f3d.jpg",
+    "static/media/hangman.png": "/static/media/hangman.361fe1da.png",
+    "static/media/me.jpg": "/static/media/me.dbaaea10.jpg",
+    "static/media/rpg.png": "/static/media/rpg.9137caea.png",
+    "static/media/rps.jpg": "/static/media/rps.3d2385a5.jpg",
+    "static/media/trivia.png": "/static/media/trivia.6b32d387.png",
+    "static/media/whatscookin.png": "/static/media/whatscookin.6bdc0b78.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.996e8249.js",
+    "static/js/2.8a61d02a.chunk.js",
+    "static/css/main.1224d19a.chunk.css",
+    "static/js/main.a97fa213.chunk.js"
+  ]
+}
